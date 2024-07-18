@@ -54,7 +54,7 @@
 			</staticText>
 			<image>
 				<reportElement x="19" y="110" width="560" height="76" uuid="128b5988-bb5b-431e-89d0-29e7ad2eef49"/>
-				<imageExpression><![CDATA["https://github.com/Dhenyson/jasperPHP123/blob/main/tests/img/jaspersoft_banner.png?raw=true"]]></imageExpression>
+				<imageExpression><![CDATA["https://github.com/Dhenyson/JasperReportPHP/blob/main/tests/img/jaspersoft_banner.png?raw=true"]]></imageExpression>
 			</image>
 			<staticText>
 				<reportElement x="20" y="240" width="280" height="30" forecolor="#000103" uuid="2a5a1237-b399-4958-abaa-1e8b4e6166f1"/>
@@ -72,7 +72,7 @@
 			</staticText>
 			<image>
 				<reportElement x="125" y="370" width="349" height="353" uuid="d28c2adf-1b51-4c0a-a866-2043baf682bf"/>
-				<imageExpression><![CDATA["https://github.com/Dhenyson/jasperPHP123/blob/main/tests/img/github_logo.png?raw=true"]]></imageExpression>
+				<imageExpression><![CDATA["https://github.com/Dhenyson/JasperReportPHP/blob/main/tests/img/github_logo.png?raw=true"]]></imageExpression>
 			</image>
 			<line>
 				<reportElement x="20" y="794" width="558" height="1" uuid="fa826415-f1f6-4ed4-8c2e-cbcc1364d784"/>
