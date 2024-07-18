@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  dhenyson_jasper_report_php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    tty: true
+    volumes:
+      - .:/app
+      - '/app/vendor'
+    ports:
+      - 8095:8000
+      - 8096:80
+    container_name: dhenyson_jasper_report_php
+    image: dhenyson_jasper_report_php
+

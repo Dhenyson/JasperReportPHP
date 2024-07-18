@@ -1,0 +1,6 @@
+vendor
+
+tests/*
+!tests/JasperReportTest.php
+!tests/sample.jrxml
+!tests/img

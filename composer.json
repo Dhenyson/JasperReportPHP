@@ -1,0 +1,42 @@
+{
+    "name": "dhenyson/jasper-report-php",
+    "version": "1.0.0",
+    "description": "A PHP library to generate reports using JasperReports",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhenyson\\JasperReportPHP\\": "src/"
+        },
+        "classmap": [
+            "bin/jasperstarter/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "bin": [
+            "bin/jasperstarter/bin/jasperstarter"
+        ],
+        "laravel": {
+            "providers": [
+                "Dhenyson\\JasperReportPHP\\Providers\\JasperReportServiceProvider"
+            ],
+            "aliases": {
+                "JasperReport": "Dhenyson\\JasperReportPHP\\Facades\\JasperReport"
+            }
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2.7"
+    },
+    "authors": [
+        {
+            "name": "Dhenyson Jhean",
+            "email": "dhenysonjhean@gmail.com"
+        }
+    ]
+}
